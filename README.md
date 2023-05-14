@@ -1,1 +1,1 @@
-# vite-multiple-builds-boilerplate
+# vite multiple builds boilerplate
