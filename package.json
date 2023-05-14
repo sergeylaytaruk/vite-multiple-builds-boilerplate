@@ -1,0 +1,30 @@
+{
+  "name": "vite-multiple-builds-boilerplate",
+  "private": false,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "nodemon:watch": "nodemon --watch src --watch src2 server.js",
+    "dev": "vite build --config vite.config.dev.js",
+    "dev:watch": "vite build --watch --config vite.config.dev.js",
+    "build": "vue-tsc -noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fast-glob": "^3.2.12",
+    "glob": "^10.2.3",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "vite": "^4.3.5",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.2.7",
+    "typescript": "5.0.2",
+    "vite-multi-bundler": "^1.1.4",
+    "vue-tsc": "1.2.0"
+  }
+}
